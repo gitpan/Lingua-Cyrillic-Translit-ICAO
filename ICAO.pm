@@ -6,6 +6,7 @@
 # under the same terms as Perl itself.
 
 # History:
+#  1.02  2007/07/04 POD fixes
 #  1.01  2007/07/02 Initial revision
 
 =head1 NAME
@@ -20,7 +21,7 @@ Lingua::Cyrillic::Translit::ICAO -- Cyrillic characters transliteration into ICA
 
 =head1 DESCRIPTION
 
-Lingua::UK::Translit::ICAO can be used for transliteration of Cyrillic
+Lingua::Cyrillic::Translit::ICAO can be used for transliteration of Cyrillic
 characters in conformance with ICAO Doc 9303 Recommendations.
 
 =head1 METHODS
@@ -43,7 +44,7 @@ our @EXPORT_OK   = qw/ cyr2icao /;
 our %EXPORT_TAGS = qw / /;
 our @ISA = qw/Exporter/;
 
-our $VERSION = "1.01";
+our $VERSION = "1.02";
 
 my $table = q!1 1
 А A
@@ -230,6 +231,7 @@ under the same terms as Perl itself.
 =head1 SEE ALSO
 
 Lingua::RU::Translit - Transliteration of Russian text to Latin symbols.
+
 Lingua::UK::Translit - Transliteration of Ukrainian text to Latin symbols.
 
 =cut

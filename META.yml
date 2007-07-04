@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Lingua-Cyrillic-Translit-ICAO
-version:             1.01
+version:             1.02
 abstract:            Cyrillic characters transliteration into ICAO Doc 9303
 license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.31
