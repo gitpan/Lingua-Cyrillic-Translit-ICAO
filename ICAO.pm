@@ -6,6 +6,7 @@
 # under the same terms as Perl itself.
 
 # History:
+#  1.03  2007/07/05 use 5.8.0 added
 #  1.02  2007/07/04 POD fixes
 #  1.01  2007/07/02 Initial revision
 
@@ -35,6 +36,7 @@ use Config;
 
 use strict;
 use warnings;
+use 5.8.0;
 use utf8;
 
 use Text::Iconv;
@@ -44,7 +46,7 @@ our @EXPORT_OK   = qw/ cyr2icao /;
 our %EXPORT_TAGS = qw / /;
 our @ISA = qw/Exporter/;
 
-our $VERSION = "1.02";
+our $VERSION = "1.03";
 
 my $table = q!1 1
 А A
