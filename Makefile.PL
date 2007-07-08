@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use 5.8.0;
+#use 5.8.0;
 
 use ExtUtils::MakeMaker;
 
@@ -11,7 +11,7 @@ WriteMakefile(
   'VERSION_FROM'  => 'ICAO.pm',
   'LICENSE'       => 'perl',
   'PREREQ_PM' => {
-    'Text::Iconv' => 1.4,
+    'Encode' => 0,
   },
 
 );
