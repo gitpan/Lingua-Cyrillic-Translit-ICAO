@@ -1,11 +1,14 @@
 # Lingua/Cyrillic/Translit/ICAO.pm
 #
-# Copyright (c) 2007 Serguei Trouchelle. All rights reserved.
+# $Id: ICAO.pm 7 2009-09-16 15:41:34Z stro $
+#
+# Copyright (c) 2007-2009 Serguei Trouchelle. All rights reserved.
 #
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
 # History:
+#  1.05  2009/09/16 Changed 5.8.0 to 5.008
 #  1.04  2007/07/07 use Encode in preference of Text::Iconv (thanks to Nikita Dedik)
 #                                   Rate Text::Iconv      Encode
 #                    Text::Iconv 13243/s          --        -41%
@@ -40,7 +43,7 @@ use Config;
 
 use strict;
 use warnings;
-#use 5.8.0;
+use 5.008;
 use utf8;
 
 use Encode;
@@ -50,7 +53,7 @@ our @EXPORT_OK   = qw/ cyr2icao /;
 our %EXPORT_TAGS = qw / /;
 our @ISA = qw/Exporter/;
 
-our $VERSION = "1.04";
+our $VERSION = '1.05';
 
 my $table = q!1 1
 А A

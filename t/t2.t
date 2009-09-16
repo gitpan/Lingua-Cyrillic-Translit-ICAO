@@ -1,6 +1,9 @@
 #!/usr/bin/env perl -w
 
+# $Id: t2.t 7 2009-09-16 15:41:34Z stro $
+
 use strict;
+use warnings;
 use Test;
 
 BEGIN { plan tests => 4 }
